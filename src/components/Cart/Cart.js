@@ -5,6 +5,8 @@ import CartItem from './CartItem';
 import classes from './Cart.module.css';
 import CartContext from '../../store/cart-context';
 
+
+
 const Cart = (props) => {
   const cartCtx = useContext(CartContext);
 
